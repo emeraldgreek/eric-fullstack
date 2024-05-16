@@ -1,0 +1,76 @@
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+body .banner {
+  padding: 15px;
+  height: 500px;
+  background: url(./banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body .banner .about-sign-in {
+  height: 79px;
+  width: 100%;
+  text-align: right;
+  text-decoration: none;
+}
+body .banner .about-sign-in .sign-in,
+body .banner .about-sign-in .about {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+body .banner .about-sign-in .sign-in {
+  text-decoration: none;
+  margin-right: 60px;
+  margin-left: 25px;
+  border: 3px solid greenyellow;
+  border-radius: 20px;
+  padding: 7px 15px;
+}
+body .banner .logo {
+  background: url(./hapoERP.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 70px;
+  height: 100px;
+}
+body .banner .content-center {
+  display: flex;
+}
+body .banner .content-center .left,
+body .banner .content-center .center,
+body .banner .content-center .right {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+body .banner .content-center .left img,
+body .banner .content-center .center img,
+body .banner .content-center .right img {
+  width: 35px;
+}
+body .banner .content-center .left span,
+body .banner .content-center .center span,
+body .banner .content-center .right span {
+  display: block;
+  font-size: 20px;
+}
+body .banner .text {
+  text-align: center;
+  margin-top: 20px;
+}
+body .banner .btn-start-now {
+  text-align: center;
+  margin-top: 10px;
+}
+body .banner .btn-start-now button {
+  text-align: center;
+  text-transform: uppercase;
+  border: 3px solid greenyellow;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
